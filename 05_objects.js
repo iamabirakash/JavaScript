@@ -35,11 +35,35 @@
 
 // *************************** FOR DATABSES ***************************
 
-const helloUser = {};
-helloUser.id = "123"
-helloUser.name = "Hello"
-helloUser.isLoggedIn = false
+// const helloUser = {};
+// helloUser.id = "123"
+// helloUser.name = "Hello"
+// helloUser.isLoggedIn = false
 
-console.log(helloUser);
-console.log(Object.keys(helloUser));
-console.log(Object.values(helloUser));
+// console.log(helloUser);
+// console.log(Object.keys(helloUser));
+// console.log(Object.values(helloUser));
+
+// *************************** DESTRUCTURING (used in react) ******************************
+
+
+// const helloUser = {
+//     email: "abc@google.com",
+//     fullname: {
+//         userFullName: {
+//             firstName: "Hello",
+//             lastName: "User"
+//         }
+//     }
+// }
+
+// console.log(helloUser.email);
+
+// const {email} = helloUser
+// const {email: mail} = helloUser   NICKNAME MAIL
+
+// console.log(email);
+// console.log(mail);
+
+
+// ******************************** API ***********************************
